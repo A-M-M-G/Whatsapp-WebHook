@@ -1,0 +1,23 @@
+{
+  "name": "webhookserver",
+  "version": "1.0.0",
+  "description": "Webhook server for whatsapp api",
+  "main": "index.js",
+  "scripts": {
+    "test": "test",
+    "start": "node index.js"
+  },
+  "keywords": [
+    "Webhook",
+    "Server",
+    "WhatsApp",
+    "API"
+  ],
+  "author": "Ahmad Mahmoud Gamal",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.1",
+    "express": "^4.17.1",
+    "nodemon": "^2.0.15"
+  }
+}
